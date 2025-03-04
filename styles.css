@@ -1,44 +1,46 @@
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
-
-/* Navbar */
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-/* Header */
-.hero {
-    background-color: #4169e1;
+    h1, h2 {
+    text-align: center;
+    background-color: darkcyan;
+    width: 60%;
+    margin: 0 auto;  /* Centers the block */
+    padding: 10px;
     color: white;
-    padding: 50px 0;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
     text-align: center;
 }
 
-.hero img {
-    border: 3px solid white;
+img {
+
+    
+    border-radius: 50%;
+    border: 3px solid #333333;
 }
 
-/* Tables */
-.table {
-    margin-top: 20px;
+table tr td a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
 }
 
-.table-dark th {
-    background-color: #343a40 !important;
-    color: white;
+table tr:hover {
+    background-color: #f1f1f1;
 }
-
-/* Footer */
-footer {
-    margin-top: 20px;
-    background-color: #4169e1;
-    color: white;
-    padding: 10px;
-}
-
-
