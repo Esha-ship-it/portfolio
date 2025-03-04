@@ -1,0 +1,44 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Header */
+.hero {
+    background-color: #4169e1;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero img {
+    border: 3px solid white;
+}
+
+/* Tables */
+.table {
+    margin-top: 20px;
+}
+
+.table-dark th {
+    background-color: #343a40 !important;
+    color: white;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    background-color: #4169e1;
+    color: white;
+    padding: 10px;
+}
+
+
